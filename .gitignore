@@ -1,0 +1,13 @@
+# Dependencies (installed by `npm install`). Never commit this folder.
+node_modules/
+
+# Environment variables / secrets. NEVER commit real keys.
+.env
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS / editor noise
+.DS_Store
+.vscode/

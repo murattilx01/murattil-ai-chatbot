@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>murattil-ai-chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Centered chat "card" -->
+    <main class="chat">
+      <header class="chat-header">
+        <h1>AI Chatbot</h1>
+        <p class="subtitle">A learning project &mdash; chat UI + backend + AI</p>
+      </header>
+
+      <!-- Messages are appended here by app.js -->
+      <div id="messages" class="messages" aria-live="polite">
+        <!-- A single message bubble looks like this (created by JS):
+        <div class="message user"><div class="bubble">...</div></div>
+        <div class="message bot"><div class="bubble">...</div></div>
+        -->
+      </div>
+
+      <!-- The input form. We use a <form> so pressing Enter submits. -->
+      <form id="chat-form" class="chat-form" autocomplete="off">
+        <input
+          id="chat-input"
+          class="chat-input"
+          type="text"
+          name="message"
+          placeholder="Type a message..."
+          aria-label="Message"
+        />
+        <button id="send-button" class="send-button" type="submit">Send</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

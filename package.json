@@ -1,0 +1,22 @@
+{
+  "name": "murattil-ai-chatbot",
+  "version": "0.0.1",
+  "description": "A simple AI chatbot built from scratch as a learning project (chat UI + backend + AI model connection).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "express",
+    "learning"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
